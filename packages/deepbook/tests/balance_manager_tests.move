@@ -6,7 +6,7 @@ module deepbook::balance_manager_tests;
 
 use deepbook::balance_manager::{Self, BalanceManager, TradeCap, DepositCap, WithdrawCap};
 use sui::{coin::mint_for_testing, sui::SUI, test_scenario::{Scenario, begin, end, return_shared}};
-use token::deep::DEEP;
+use deep_token::deep::DEEP;
 
 public struct SPAM has store {}
 public struct USDC has store {}

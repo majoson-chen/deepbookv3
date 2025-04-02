@@ -18,7 +18,7 @@ use sui::{
     sui::SUI,
     test_scenario::{Scenario, begin, end, return_shared, return_to_sender}
 };
-use token::deep::{Self, DEEP, ProtectedTreasury};
+use deep_token::deep::{Self, DEEP, ProtectedTreasury};
 
 public struct ExpectedBalances has drop {
     sui: u64,

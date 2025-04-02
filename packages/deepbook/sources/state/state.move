@@ -20,7 +20,7 @@ use deepbook::{
 };
 use std::type_name;
 use sui::{event, table::{Self, Table}};
-use token::deep::DEEP;
+use deep_token::deep::DEEP;
 
 // === Errors ===
 const ENoStake: u64 = 1;

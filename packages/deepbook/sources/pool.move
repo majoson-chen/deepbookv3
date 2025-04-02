@@ -26,7 +26,7 @@ use sui::{
     vec_set::{Self, VecSet},
     versioned::{Self, Versioned}
 };
-use token::deep::{DEEP, ProtectedTreasury};
+use deep_token::deep::{DEEP, ProtectedTreasury};
 
 // === Errors ===
 const EInvalidFee: u64 = 1;

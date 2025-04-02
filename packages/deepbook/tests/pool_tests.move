@@ -30,7 +30,7 @@ use sui::{
     test_scenario::{Scenario, begin, end, return_shared},
     test_utils
 };
-use token::deep::DEEP;
+use deep_token::deep::DEEP;
 
 const OWNER: address = @0x1;
 const ALICE: address = @0xAAAA;

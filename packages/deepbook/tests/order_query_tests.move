@@ -15,7 +15,7 @@ use deepbook::{
     pool_tests::{setup_test, setup_pool_with_default_fees_and_reference_pool, place_limit_order}
 };
 use sui::{sui::SUI, test_scenario::{begin, end, return_shared}, test_utils};
-use token::deep::DEEP;
+use deep_token::deep::DEEP;
 
 const OWNER: address = @0x1;
 const ALICE: address = @0xAAAA;

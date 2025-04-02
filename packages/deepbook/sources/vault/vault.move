@@ -8,7 +8,7 @@ module deepbook::vault;
 use deepbook::{balance_manager::{TradeProof, BalanceManager}, balances::Balances};
 use std::type_name::{Self, TypeName};
 use sui::{balance::{Self, Balance}, coin::Coin, event};
-use token::deep::DEEP;
+use deep_token::deep::DEEP;
 
 // === Errors ===
 const ENotEnoughBaseForLoan: u64 = 1;
