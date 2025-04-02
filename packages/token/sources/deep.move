@@ -1,7 +1,7 @@
 // Copyright (c) Mysten Labs, Inc.
 // SPDX-License-Identifier: Apache-2.0
 
-module token::deep {
+module deep_token::deep {
     public struct DEEP has drop {}
 
     public struct ProtectedTreasury has key {
