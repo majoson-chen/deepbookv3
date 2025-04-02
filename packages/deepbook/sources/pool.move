@@ -655,7 +655,7 @@ public fun burn_deep<BaseAsset, QuoteAsset>(
     let balance_to_burn = self.state.history_mut().reset_balance_to_burn();
     let deep_to_burn = self.vault.withdraw_deep_to_burn(balance_to_burn).into_coin(ctx);
     let amount_burned = deep_to_burn.value();
-    token::deep::burn(treasury_cap, deep_to_burn);
+    deep_token::deep::burn(treasury_cap, deep_to_burn);
 
     event::emit(DeepBurned<BaseAsset, QuoteAsset> {
         pool_id: self.pool_id,

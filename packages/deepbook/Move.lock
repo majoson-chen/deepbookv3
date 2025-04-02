@@ -2,11 +2,11 @@
 
 [move]
 version = 3
-manifest_digest = "77450CAF5CB6CF95D38E61C7F44F5C35EF483F5B232C93A8039C28ECA9AC8BA1"
+manifest_digest = "0B75814007361A59CDDC6B79E3D5164AF98F9A55E7106F976E6D8D413B620878"
 deps_digest = "3C4103934B1E040BB6B23F1D610B4EF9F2F1166A50A104EADCF77467C004C600"
 dependencies = [
   { id = "Sui", name = "Sui" },
-  { id = "token", name = "token" },
+  { id = "deep_token", name = "deep_token" },
 ]
 
 [[move.package]]
@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [[move.package]]
-id = "token"
+id = "deep_token"
 source = { local = "../token" }
 
 dependencies = [
